@@ -7,35 +7,58 @@
     "submitting": "Submitting…",
     "retry": "Retry",
     "loading": "Loading…",
-    "optional": "(optional)"
+    "optional": "(optional)",
+    "done": "Done"
   },
   "intro": {
     "title": "STARLUX App Experience Survey",
-    "desc": "We'd like to understand how booking, check-in, mileage and other flows in the STARLUX App actually feel to you, so we can find what matters most to improve.",
-    "duration": "About 3 minutes, anonymous",
+    "duration": "Estimated time: about 5 minutes",
+    "lead": "Hi! This survey is to understand which part of using the STARLUX App trips you up the most.",
+    "bulletAnon": "Anonymous — responses are used only for this study",
+    "bulletHonest": "No right or wrong answers, just share how it really felt",
+    "bulletNoSave": "Leaving midway won't save your data",
     "start": "Start"
   },
   "progress": {
     "stepOf": "Question {current} of {total}"
   },
+  "field": {
+    "commentPlaceholder": "What happened there? (optional)",
+    "storyPlaceholder": "Write freely. e.g. payment got stuck while booking, the check-in page kept spinning…",
+    "feedbackPlaceholder": "Anything you'd like to add"
+  },
+  "scale": {
+    "9": { "low": "1 — No information at all", "high": "5 — Very clear" },
+    "10": { "low": "1 — Very bad", "high": "5 — Very good" }
+  },
+  "branch": {
+    "toEnd": "→ End",
+    "skipDetails": "→ Skip Q4–7"
+  },
+  "notFound": {
+    "lead": "Oops! Looks like you've taken a wrong turn.",
+    "sub": "Let's get you back on track!",
+    "goHome": "Go Home"
+  },
   "interview": {
-    "title": "I'm willing to join a ~15-minute online interview",
-    "desc": "If you're open to sharing more, we'd love to chat (we'll reach out).",
+    "title": "I'm open to a 15-minute interview to chat more about the experience",
     "namePlaceholder": "What should we call you?",
     "emailPlaceholder": "Email",
     "hint": "If checked, please fill in your name and email"
   },
-  "done": {
-    "title": "Thank you!",
-    "message": "Your responses have been submitted. We really appreciate your time 🙏",
-    "interviewNote": "We'll reach out via email soon to schedule your interview."
-  },
-  "skip": {
-    "title": "Thanks for stopping by",
-    "message": "This survey focuses on experiences of people who have used the STARLUX App, so we'll wrap up here. Thank you!"
+  "end": {
+    "doneTitle": "Thanks for completing the survey!",
+    "doneLine1": "Your answers will support UX research to improve the STARLUX App.",
+    "doneLine2": "If you know other STARLUX App users, feel free to pass this along.",
+    "screenTitle": "Thank you for your time",
+    "screenLine1": "This study focuses on App usage experience, so we won't collect your responses this time.",
+    "screenLine2": "Feel free to forward this survey to friends who have used the App.",
+    "backToSurvey": "Back to survey",
+    "disclaimer": "This page is a personal UI/UX research and experience-design practice project (Redesign Project). All trademarks and company names belong to their respective owners. It is for academic and design exchange only, with no commercial purpose."
   },
   "error": {
     "validation": "Something looks off with the data, please check and try again",
+    "submitFailed": "Submission failed, please try again",
     "notFound": "Service is temporarily unavailable",
     "rateLimit": "Too many requests, please try again shortly",
     "serverError": "Server is busy, retrying automatically…",

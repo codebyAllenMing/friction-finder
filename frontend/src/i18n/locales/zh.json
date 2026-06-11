@@ -7,46 +7,69 @@
     "submitting": "送出中…",
     "retry": "重試",
     "loading": "載入中…",
-    "optional": "（可空白）"
+    "optional": "（可空白）",
+    "done": "完成"
   },
   "intro": {
-    "title": "STARLUX App 使用經驗問卷",
-    "desc": "我們想了解你使用 STARLUX App 訂票、報到、里程等流程的真實感受，幫助我們找出最該改進的地方。",
-    "duration": "大約 3 分鐘，匿名填寫",
+    "title": "STARLUX 星宇航空 App 使用經驗調查",
+    "duration": "預估填答時間 約 5 分鐘",
+    "lead": "嗨!這份問卷想了解你在使用 STARLUX App 時,哪個環節最讓你卡關。",
+    "bulletAnon": "問卷匿名,所有回應只用於本次研究",
+    "bulletHonest": "沒有對錯答案,寫真實感覺就好",
+    "bulletNoSave": "中途離開資料不會儲存",
     "start": "開始填寫"
   },
   "progress": {
     "stepOf": "第 {current} / {total} 題"
   },
+  "field": {
+    "commentPlaceholder": "當時是什麼狀況?(可選填)",
+    "storyPlaceholder": "可以隨意寫。例如:訂票時付款卡住、報到頁面一直轉圈…",
+    "feedbackPlaceholder": "自由發揮"
+  },
+  "scale": {
+    "9": { "low": "1 — 完全沒訊息", "high": "5 — 訊息非常明確" },
+    "10": { "low": "1 — 非常不好", "high": "5 — 非常好" }
+  },
+  "branch": {
+    "toEnd": "→ 結尾",
+    "skipDetails": "→ 跳 Q4–7"
+  },
+  "notFound": {
+    "lead": "糟糕!你好像走錯路了",
+    "sub": "我們帶你回到正軌吧!",
+    "goHome": "回首頁"
+  },
   "interview": {
-    "title": "我願意接受約 15 分鐘的線上訪談",
-    "desc": "若你願意更深入分享，我們想跟你聊聊（我們會主動聯繫）。",
-    "namePlaceholder": "如何稱呼您？",
+    "title": "我願意接受 15 分鐘訪談,深入聊聊使用經驗",
+    "namePlaceholder": "如何稱呼您?",
     "emailPlaceholder": "Email",
     "hint": "勾選後請填寫稱呼與 Email"
   },
-  "done": {
-    "title": "謝謝你！",
-    "message": "你的回答已經送出，對我們非常有幫助 🙏",
-    "interviewNote": "我們會在近期透過 Email 與你聯繫訪談時間。"
-  },
-  "skip": {
-    "title": "感謝你的參與",
-    "message": "這份問卷主要想了解「用過 STARLUX App」的經驗，所以就到這裡囉，謝謝你！"
+  "end": {
+    "doneTitle": "謝謝你完成問卷!",
+    "doneLine1": "你的回答會被用來做 STARLUX App UX 優化研究。",
+    "doneLine2": "如果身邊還有其他星宇 App 使用者,歡迎幫忙轉發。",
+    "screenTitle": "謝謝你的時間",
+    "screenLine1": "這次研究聚焦在 App 使用體驗,所以這次先不收集你的回覆。",
+    "screenLine2": "歡迎將問卷轉給有用過 App 的朋友。",
+    "backToSurvey": "回問卷",
+    "disclaimer": "本網頁為個人 UI/UX 研究與使用者體驗設計之專案練習 (Redesign Project), 網頁內所使用之商標及企業名稱皆歸原官方所有, 本專案僅作學術與設計交流用途,不具任何商業目的。"
   },
   "error": {
-    "validation": "資料格式有誤，請檢查後再送出",
+    "validation": "資料格式有誤,請檢查後再送出",
+    "submitFailed": "送出失敗,請再試一次",
     "notFound": "服務暫時無法使用",
-    "rateLimit": "請求太頻繁，請稍候再試",
-    "serverError": "伺服器忙線中，正在自動重試…",
-    "serviceBusy": "服務暫時不穩，正在自動重試…",
-    "network": "網路連線不穩，請檢查網路後再試",
-    "unknown": "發生未知錯誤，請稍後再試"
+    "rateLimit": "請求太頻繁,請稍候再試",
+    "serverError": "伺服器忙線中,正在自動重試…",
+    "serviceBusy": "服務暫時不穩,正在自動重試…",
+    "network": "網路連線不穩,請檢查網路後再試",
+    "unknown": "發生未知錯誤,請稍後再試"
   },
   "validation": {
     "required": "這題需要回答喔",
     "selectAtLeastOne": "請至少選一項",
-    "interviewIncomplete": "請填寫稱呼與 Email，或取消勾選訪談"
+    "interviewIncomplete": "請填寫稱呼與 Email,或取消勾選訪談"
   },
   "language": {
     "zh": "中文",

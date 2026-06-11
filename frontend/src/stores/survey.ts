@@ -37,9 +37,9 @@ export const useSurveyStore = defineStore('survey', () => {
         return answers.value[questionId] ?? emptyAnswer()
     }
 
+    // 只更新記憶體，不寫盤。落盤時機交給導覽（setCurrentStep）統一處理。
     function setAnswer(questionId: number, state: AnswerState) {
         answers.value[questionId] = state
-        persist()
     }
 
     // 導覽
@@ -57,7 +57,8 @@ export const useSurveyStore = defineStore('survey', () => {
         localStorage.removeItem(STORAGE_KEY)
     }
 
-    // 持久化
+    // 持久化：只在切題（setCurrentStep）與送出前呼叫，一次同步寫入很便宜。
+    // 不在 setAnswer 裡寫盤 → 點選 / 打字期間完全不碰 localStorage。
     function persist() {
         const data: PersistedState = {
             version: 'v1',
@@ -97,6 +98,7 @@ export const useSurveyStore = defineStore('survey', () => {
         setAnswer,
         setCurrentStep,
         reset,
+        persist,
         hydrate,
     }
 })

@@ -22,6 +22,8 @@ export default defineConfig({
     },
     server: {
         host: true, // 監聽 0.0.0.0 → 手機可用區網 IP 連
+        port: 5173,
+        strictPort: true, // 5173 被占就直接報錯，不偷偷漂到 5174（避免 Origin 對不上後端白名單）
         https,
         proxy: {
             // 前端打相對 /api（HTTPS、同源）→ Vite 內部轉給 HTTP 後端，避免 mixed content

@@ -16,6 +16,11 @@
     --color-accenthover: #e07a00;
     --color-success: #22c55e;
     --color-danger: #ef4444;
+    /* 問卷主色（依 v4 設計稿的藍）。primarysoft = 選中卡片底色，dangersoft = 分支標籤底色。 */
+    --color-primary: #1d4ed8;
+    --color-primaryhover: #1e40af;
+    --color-primarysoft: #eef2ff;
+    --color-dangersoft: #fef2f2;
 }
 
 /* dark 覆蓋：只換變數值，component 的 utility class 不用改 */
@@ -29,4 +34,8 @@
     --color-accenthover: #ffae47;
     --color-success: #4ade80;
     --color-danger: #f87171;
+    --color-primary: #4f7cff;
+    --color-primaryhover: #6b90ff;
+    --color-primarysoft: #1e2746;
+    --color-dangersoft: #3a1f23;
 }
