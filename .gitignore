@@ -56,6 +56,8 @@ backend/target/
 # ===== 規劃文件 / 本機筆記（不進版控）=====
 plan/
 .claude/
+# 部署文件含個人基礎設施細節，本機留存即可，不公開
+/DEPLOY.html
 
 # ===== Logs / misc =====
 logs/

@@ -1,0 +1,4 @@
+# Cloudflare Pages SPA fallback：所有路徑都回 index.html（200），交給 Vue Router 處理。
+# 沒這行，線上直接打 /survey/q1、/end/done、/404 等深連結會被靜態主機回真正的 404。
+# public/ 內的檔會原樣複製到 dist/ 根，CF Pages 自動讀取。
+/*    /index.html   200
