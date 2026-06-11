@@ -11,15 +11,14 @@ public record SubmitRequest(
         List<Item> items,
         Interview interview   // 沒勾訪談則為 null
 ) {
+    // 只收 id；題目/答案文字（label）由 submit_survey() 用 id 從 question/answer 表查，寫進快照欄。
     public record Item(
             Long questionId,
-            String questionLabel,
             List<Answer> answers
     ) {}
 
     public record Answer(
             Long answerId,        // 純文字題為 null
-            String answerLabel,   // 純文字題為 null
             String responseText   // 「其他」補充 / 開放題回答
     ) {}
 

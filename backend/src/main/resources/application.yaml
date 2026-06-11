@@ -30,8 +30,8 @@ management:
 app:
   cors:
     # 多個用逗號分隔；正式環境用 env APP_CORS_ALLOWED_ORIGINS 覆蓋
-    # dev 含 :8080 是為了讓 Swagger UI（同源）能 Try it out POST
-    allowed-origins: ${APP_CORS_ALLOWED_ORIGINS:http://localhost:5173,http://localhost:8080}
+    # dev：前端 dev server 走 HTTPS(mkcert) 故含 https://localhost:5173；含 :8080 讓 Swagger UI 同源 Try it out POST
+    allowed-origins: ${APP_CORS_ALLOWED_ORIGINS:http://localhost:5173,https://localhost:5173,http://localhost:8080}
   ratelimit:
     capacity: 3              # 每 IP 桶容量（爆發允許量）
     refill-per-minute: 3     # 每分鐘補充代幣數

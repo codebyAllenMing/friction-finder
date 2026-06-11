@@ -86,13 +86,13 @@ class SurveyApiIntegrationTest {
             {
               "locale":"zh",
               "items":[
-                {"questionId":4,"questionLabel":"訂票流程","answers":[
-                  {"answerId":1,"answerLabel":"選地點"},
-                  {"answerId":7,"answerLabel":"付款"},
-                  {"answerId":null,"answerLabel":null,"responseText":"找不到航班"}
+                {"questionId":4,"answers":[
+                  {"answerId":1},
+                  {"answerId":7},
+                  {"answerId":null,"responseText":"找不到航班"}
                 ]},
-                {"questionId":11,"questionLabel":"開放回饋","answers":[
-                  {"answerId":null,"answerLabel":null,"responseText":"整體不錯"}
+                {"questionId":11,"answers":[
+                  {"answerId":null,"responseText":"整體不錯"}
                 ]}
               ]
             }
@@ -113,7 +113,7 @@ class SurveyApiIntegrationTest {
         String body = """
             {
               "locale":"zh",
-              "items":[{"questionId":1,"questionLabel":"Q1","answers":[{"answerId":1,"answerLabel":"有用過"}]}],
+              "items":[{"questionId":1,"answers":[{"answerId":1}]}],
               "interview":{"name":"小明","email":"ming@example.com"}
             }
             """;
@@ -129,7 +129,7 @@ class SurveyApiIntegrationTest {
     @Test
     void submit_withoutInterview_noPiiRow() {
         String body = """
-            {"locale":"en","items":[{"questionId":1,"questionLabel":"Q1","answers":[{"answerId":2,"answerLabel":"No"}]}]}
+            {"locale":"en","items":[{"questionId":1,"answers":[{"answerId":2}]}]}
             """;
 
         ResponseEntity<String> res = post(body, "10.1.0.3");
