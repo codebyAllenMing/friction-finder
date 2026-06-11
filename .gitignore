@@ -35,6 +35,9 @@ yarn-error.log*
 frontend/src/data/survey.json
 !frontend/src/data/survey.fallback.json
 
+# 本機 HTTPS 憑證（mkcert，含私鑰，絕不進版控）
+frontend/certs/
+
 # ===== Backend: Java / Maven =====
 backend/target/
 *.class

@@ -1,0 +1,22 @@
+root = true
+
+# 全專案預設：4 空格縮排、LF、UTF-8、檔尾換行、去尾端空白
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# YAML 對縮排敏感、慣例 2 空格
+[*.{yml,yaml}]
+indent_size = 2
+
+# JSON 常被 npm / 工具改寫，維持 2 空格少衝突
+[*.json]
+indent_size = 2
+
+# Markdown 行尾空白有語意（換行），不去除
+[*.md]
+trim_trailing_whitespace = false

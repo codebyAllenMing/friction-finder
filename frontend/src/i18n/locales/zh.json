@@ -1,0 +1,55 @@
+{
+  "common": {
+    "start": "開始填寫",
+    "back": "上一題",
+    "next": "下一題",
+    "submit": "送出",
+    "submitting": "送出中…",
+    "retry": "重試",
+    "loading": "載入中…",
+    "optional": "（可空白）"
+  },
+  "intro": {
+    "title": "STARLUX App 使用經驗問卷",
+    "desc": "我們想了解你使用 STARLUX App 訂票、報到、里程等流程的真實感受，幫助我們找出最該改進的地方。",
+    "duration": "大約 3 分鐘，匿名填寫",
+    "start": "開始填寫"
+  },
+  "progress": {
+    "stepOf": "第 {current} / {total} 題"
+  },
+  "interview": {
+    "title": "我願意接受約 15 分鐘的線上訪談",
+    "desc": "若你願意更深入分享，我們想跟你聊聊（我們會主動聯繫）。",
+    "namePlaceholder": "如何稱呼您？",
+    "emailPlaceholder": "Email",
+    "hint": "勾選後請填寫稱呼與 Email"
+  },
+  "done": {
+    "title": "謝謝你！",
+    "message": "你的回答已經送出，對我們非常有幫助 🙏",
+    "interviewNote": "我們會在近期透過 Email 與你聯繫訪談時間。"
+  },
+  "skip": {
+    "title": "感謝你的參與",
+    "message": "這份問卷主要想了解「用過 STARLUX App」的經驗，所以就到這裡囉，謝謝你！"
+  },
+  "error": {
+    "validation": "資料格式有誤，請檢查後再送出",
+    "notFound": "服務暫時無法使用",
+    "rateLimit": "請求太頻繁，請稍候再試",
+    "serverError": "伺服器忙線中，正在自動重試…",
+    "serviceBusy": "服務暫時不穩，正在自動重試…",
+    "network": "網路連線不穩，請檢查網路後再試",
+    "unknown": "發生未知錯誤，請稍後再試"
+  },
+  "validation": {
+    "required": "這題需要回答喔",
+    "selectAtLeastOne": "請至少選一項",
+    "interviewIncomplete": "請填寫稱呼與 Email，或取消勾選訪談"
+  },
+  "language": {
+    "zh": "中文",
+    "en": "English"
+  }
+}

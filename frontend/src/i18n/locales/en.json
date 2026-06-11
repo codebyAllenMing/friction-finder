@@ -1,0 +1,55 @@
+{
+  "common": {
+    "start": "Start",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "submitting": "Submitting…",
+    "retry": "Retry",
+    "loading": "Loading…",
+    "optional": "(optional)"
+  },
+  "intro": {
+    "title": "STARLUX App Experience Survey",
+    "desc": "We'd like to understand how booking, check-in, mileage and other flows in the STARLUX App actually feel to you, so we can find what matters most to improve.",
+    "duration": "About 3 minutes, anonymous",
+    "start": "Start"
+  },
+  "progress": {
+    "stepOf": "Question {current} of {total}"
+  },
+  "interview": {
+    "title": "I'm willing to join a ~15-minute online interview",
+    "desc": "If you're open to sharing more, we'd love to chat (we'll reach out).",
+    "namePlaceholder": "What should we call you?",
+    "emailPlaceholder": "Email",
+    "hint": "If checked, please fill in your name and email"
+  },
+  "done": {
+    "title": "Thank you!",
+    "message": "Your responses have been submitted. We really appreciate your time 🙏",
+    "interviewNote": "We'll reach out via email soon to schedule your interview."
+  },
+  "skip": {
+    "title": "Thanks for stopping by",
+    "message": "This survey focuses on experiences of people who have used the STARLUX App, so we'll wrap up here. Thank you!"
+  },
+  "error": {
+    "validation": "Something looks off with the data, please check and try again",
+    "notFound": "Service is temporarily unavailable",
+    "rateLimit": "Too many requests, please try again shortly",
+    "serverError": "Server is busy, retrying automatically…",
+    "serviceBusy": "Service is temporarily unstable, retrying automatically…",
+    "network": "Network seems unstable, please check your connection and retry",
+    "unknown": "Something went wrong, please try again later"
+  },
+  "validation": {
+    "required": "This question needs an answer",
+    "selectAtLeastOne": "Please select at least one option",
+    "interviewIncomplete": "Please fill in name and email, or uncheck the interview option"
+  },
+  "language": {
+    "zh": "中文",
+    "en": "English"
+  }
+}

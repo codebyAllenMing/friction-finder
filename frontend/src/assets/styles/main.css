@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+/* dark mode：以 <html> 上的 .dark class 切換 */
+@custom-variant dark (&:is(.dark *));
+
+/* design tokens（Phase 8.5 再校正實際色值）。
+   ⚠️ Tailwind v4 注意：token 名不可互為「連字號前綴」——同時有 accent 與 accent-hover、
+   或 text 與 text-muted，會讓 @theme + .dark 的主題註冊壞掉 → 故用 muted / accenthover。 */
+@theme {
+    --color-bg: #ffffff;
+    --color-surface: #fafafa;
+    --color-text: #1a1a1a;
+    --color-muted: #6b6b6b;
+    --color-border: #e5e5e5;
+    --color-accent: #ff8c00;
+    --color-accenthover: #e07a00;
+    --color-success: #22c55e;
+    --color-danger: #ef4444;
+}
+
+/* dark 覆蓋：只換變數值，component 的 utility class 不用改 */
+.dark {
+    --color-bg: #0f0f0f;
+    --color-surface: #1a1a1a;
+    --color-text: #f5f5f5;
+    --color-muted: #9b9b9b;
+    --color-border: #2a2a2a;
+    --color-accent: #ff9b1f;
+    --color-accenthover: #ffae47;
+    --color-success: #4ade80;
+    --color-danger: #f87171;
+}

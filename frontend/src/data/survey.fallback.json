@@ -1,0 +1,409 @@
+{
+  "questions": [
+    {
+      "tagEn": ["Screening"],
+      "tagZh": ["篩選"],
+      "hintEn": null,
+      "hintZh": null,
+      "answers": [
+        {
+          "labelEn": "Yes, I have",
+          "labelZh": "有用過",
+          "answerId": 45,
+          "sortOrder": 1
+        },
+        {
+          "labelEn": "No, I haven't",
+          "labelZh": "沒用過",
+          "answerId": 46,
+          "sortOrder": 2
+        }
+      ],
+      "labelEn": "Have you used the STARLUX App?",
+      "labelZh": "你有用過 STARLUX App 嗎?",
+      "version": "1",
+      "sortOrder": 1,
+      "questionId": 12
+    },
+    {
+      "tagEn": ["Context"],
+      "tagZh": ["使用情境"],
+      "hintEn": null,
+      "hintZh": null,
+      "answers": [
+        {
+          "labelEn": "Business trip — booked by myself",
+          "labelZh": "商務出差 — 自己訂",
+          "answerId": 47,
+          "sortOrder": 1
+        },
+        {
+          "labelEn": "Business trip — booked by company / agency",
+          "labelZh": "商務出差 — 公司 / 旅行社代訂",
+          "answerId": 48,
+          "sortOrder": 2
+        },
+        {
+          "labelEn": "Personal travel / visiting family",
+          "labelZh": "個人旅遊 / 探親",
+          "answerId": 49,
+          "sortOrder": 3
+        },
+        {
+          "labelEn": "Other",
+          "labelZh": "其他",
+          "answerId": 50,
+          "sortOrder": 4
+        }
+      ],
+      "labelEn": "What was the main purpose of your most recent use of the STARLUX App?",
+      "labelZh": "你最近一次用 STARLUX App,主要是為了什麼?",
+      "version": "1",
+      "sortOrder": 2,
+      "questionId": 13
+    },
+    {
+      "tagEn": ["Flow Experience"],
+      "tagZh": ["流程體驗"],
+      "hintEn": "Multiple selections allowed",
+      "hintZh": "可複選",
+      "answers": [
+        {
+          "labelEn": "Booking",
+          "labelZh": "訂票",
+          "answerId": 51,
+          "sortOrder": 1
+        },
+        {
+          "labelEn": "Change / refund",
+          "labelZh": "改票 / 退票",
+          "answerId": 52,
+          "sortOrder": 2
+        },
+        {
+          "labelEn": "Online check-in",
+          "labelZh": "線上報到",
+          "answerId": 53,
+          "sortOrder": 3
+        },
+        {
+          "labelEn": "Earn / redeem mileage",
+          "labelZh": "累積 / 使用里程",
+          "answerId": 54,
+          "sortOrder": 4
+        },
+        {
+          "labelEn": "None of the above",
+          "labelZh": "都沒實際做過",
+          "answerId": 55,
+          "sortOrder": 5
+        }
+      ],
+      "labelEn": "Which of the following flows have you actually completed using the STARLUX App?",
+      "labelZh": "你實際用過 STARLUX App 完成以下哪些流程?",
+      "version": "1",
+      "sortOrder": 3,
+      "questionId": 14
+    },
+    {
+      "tagEn": ["Flow Experience", "Booking"],
+      "tagZh": ["流程體驗", "訂票"],
+      "hintEn": "Multiple selections allowed — optional comment per selection",
+      "hintZh": "可複選 — 勾選後可選填當時狀況",
+      "answers": [
+        {
+          "labelEn": "Select destination / time",
+          "labelZh": "選地點 / 時間",
+          "answerId": 56,
+          "sortOrder": 1
+        },
+        {
+          "labelEn": "Select cabin class",
+          "labelZh": "選艙等",
+          "answerId": 57,
+          "sortOrder": 2
+        },
+        {
+          "labelEn": "Enter personal info",
+          "labelZh": "填個人資料",
+          "answerId": 58,
+          "sortOrder": 3
+        },
+        {
+          "labelEn": "Select seat",
+          "labelZh": "選位",
+          "answerId": 59,
+          "sortOrder": 4
+        },
+        {
+          "labelEn": "Add baggage",
+          "labelZh": "加購行李",
+          "answerId": 60,
+          "sortOrder": 5
+        },
+        {
+          "labelEn": "Add meal",
+          "labelZh": "加購餐點",
+          "answerId": 61,
+          "sortOrder": 6
+        },
+        {
+          "labelEn": "Payment",
+          "labelZh": "付款",
+          "answerId": 62,
+          "sortOrder": 7
+        },
+        {
+          "labelEn": "Other",
+          "labelZh": "其他",
+          "answerId": 63,
+          "sortOrder": 8
+        }
+      ],
+      "labelEn": "Which steps in the booking flow felt unsmooth?",
+      "labelZh": "訂票流程中,哪些步驟覺得不順暢?",
+      "version": "1",
+      "sortOrder": 4,
+      "questionId": 15
+    },
+    {
+      "tagEn": ["Flow Experience", "Change"],
+      "tagZh": ["流程體驗", "改退"],
+      "hintEn": "Multiple selections allowed — optional comment per selection",
+      "hintZh": "可複選 — 勾選後可選填當時狀況",
+      "answers": [
+        {
+          "labelEn": "Find change ticket entry",
+          "labelZh": "找到改票入口",
+          "answerId": 64,
+          "sortOrder": 1
+        },
+        {
+          "labelEn": "Modify date / flight",
+          "labelZh": "修改日期 / 航班",
+          "answerId": 65,
+          "sortOrder": 2
+        },
+        {
+          "labelEn": "Fare difference calculation",
+          "labelZh": "補差價計算",
+          "answerId": 66,
+          "sortOrder": 3
+        },
+        {
+          "labelEn": "Confirm / payment",
+          "labelZh": "確認 / 付款",
+          "answerId": 67,
+          "sortOrder": 4
+        },
+        {
+          "labelEn": "Other",
+          "labelZh": "其他",
+          "answerId": 68,
+          "sortOrder": 5
+        }
+      ],
+      "labelEn": "Which steps in the change/refund flow felt unsmooth?",
+      "labelZh": "改票 / 退票流程中,哪些步驟覺得不順暢?",
+      "version": "1",
+      "sortOrder": 5,
+      "questionId": 16
+    },
+    {
+      "tagEn": ["Flow Experience", "Check-in"],
+      "tagZh": ["流程體驗", "報到"],
+      "hintEn": "Multiple selections allowed — optional comment per selection",
+      "hintZh": "可複選 — 勾選後可選填當時狀況",
+      "answers": [
+        {
+          "labelEn": "Find check-in entry",
+          "labelZh": "找到報到入口",
+          "answerId": 69,
+          "sortOrder": 1
+        },
+        {
+          "labelEn": "Select / change seat",
+          "labelZh": "選位 / 換位",
+          "answerId": 70,
+          "sortOrder": 2
+        },
+        {
+          "labelEn": "Add baggage",
+          "labelZh": "加購行李",
+          "answerId": 71,
+          "sortOrder": 3
+        },
+        {
+          "labelEn": "Download boarding pass / add to Wallet",
+          "labelZh": "下載登機證 / 加入 Wallet",
+          "answerId": 72,
+          "sortOrder": 4
+        },
+        {
+          "labelEn": "Other",
+          "labelZh": "其他",
+          "answerId": 73,
+          "sortOrder": 5
+        }
+      ],
+      "labelEn": "Which steps in the online check-in flow felt unsmooth?",
+      "labelZh": "線上報到流程中,哪些步驟覺得不順暢?",
+      "version": "1",
+      "sortOrder": 6,
+      "questionId": 17
+    },
+    {
+      "tagEn": ["Flow Experience", "Mileage"],
+      "tagZh": ["流程體驗", "里程"],
+      "hintEn": "Multiple selections allowed — optional comment per selection",
+      "hintZh": "可複選 — 勾選後可選填當時狀況",
+      "answers": [
+        {
+          "labelEn": "Check accumulated mileage",
+          "labelZh": "累積里程查詢",
+          "answerId": 74,
+          "sortOrder": 1
+        },
+        {
+          "labelEn": "Redeem for tickets",
+          "labelZh": "折抵機票",
+          "answerId": 75,
+          "sortOrder": 2
+        },
+        {
+          "labelEn": "Redeem rewards",
+          "labelZh": "兌換獎勵",
+          "answerId": 76,
+          "sortOrder": 3
+        },
+        {
+          "labelEn": "Account info display",
+          "labelZh": "帳戶資訊顯示",
+          "answerId": 77,
+          "sortOrder": 4
+        },
+        {
+          "labelEn": "Other",
+          "labelZh": "其他",
+          "answerId": 78,
+          "sortOrder": 5
+        }
+      ],
+      "labelEn": "Which steps in the mileage earning/redemption flow felt unsmooth?",
+      "labelZh": "累積 / 使用里程流程中,哪些步驟覺得不順暢?",
+      "version": "1",
+      "sortOrder": 7,
+      "questionId": 18
+    },
+    {
+      "tagEn": ["Journey Story"],
+      "tagZh": ["旅程描述"],
+      "hintEn": "From booking to landing, which steps were unsmooth or got stuck? Highlight the most frustrating ones (optional)",
+      "hintZh": "從訂票到落地,遇到了哪些不順暢、卡住的地方?特別寫出最卡 / 最難用的環節(可空白)",
+      "answers": [],
+      "labelEn": "Describe your most recent experience using the App",
+      "labelZh": "請描述你最近一次用 App 的體驗",
+      "version": "1",
+      "sortOrder": 8,
+      "questionId": 19
+    },
+    {
+      "tagEn": ["System Messaging"],
+      "tagZh": ["系統訊息"],
+      "hintEn": "If never stuck, choose 3 (neutral)",
+      "hintZh": "如果沒卡過,選 3 (中間)",
+      "answers": [
+        {
+          "labelEn": "1 — No information at all",
+          "labelZh": "1 — 完全沒訊息",
+          "answerId": 79,
+          "sortOrder": 1
+        },
+        {
+          "labelEn": "2",
+          "labelZh": "2",
+          "answerId": 80,
+          "sortOrder": 2
+        },
+        {
+          "labelEn": "3 — Neutral",
+          "labelZh": "3 — 中間",
+          "answerId": 81,
+          "sortOrder": 3
+        },
+        {
+          "labelEn": "4",
+          "labelZh": "4",
+          "answerId": 82,
+          "sortOrder": 4
+        },
+        {
+          "labelEn": "5 — Very clear",
+          "labelZh": "5 — 訊息非常明確",
+          "answerId": 83,
+          "sortOrder": 5
+        }
+      ],
+      "labelEn": "When you got stuck in the App, did it clearly tell you what happened?",
+      "labelZh": "當你在 App 卡關時,App 有沒有給你明確的訊息告訴你發生什麼事?",
+      "version": "1",
+      "sortOrder": 9,
+      "questionId": 20
+    },
+    {
+      "tagEn": ["Overall Rating"],
+      "tagZh": ["整體評分"],
+      "hintEn": null,
+      "hintZh": null,
+      "answers": [
+        {
+          "labelEn": "1 — Very bad",
+          "labelZh": "1 — 非常不好",
+          "answerId": 84,
+          "sortOrder": 1
+        },
+        {
+          "labelEn": "2",
+          "labelZh": "2",
+          "answerId": 85,
+          "sortOrder": 2
+        },
+        {
+          "labelEn": "3 — Average",
+          "labelZh": "3 — 普通",
+          "answerId": 86,
+          "sortOrder": 3
+        },
+        {
+          "labelEn": "4",
+          "labelZh": "4",
+          "answerId": 87,
+          "sortOrder": 4
+        },
+        {
+          "labelEn": "5 — Very good",
+          "labelZh": "5 — 非常好",
+          "answerId": 88,
+          "sortOrder": 5
+        }
+      ],
+      "labelEn": "Overall, how would you rate the STARLUX App experience?",
+      "labelZh": "整體來說,你給 STARLUX App 使用體驗的評分?",
+      "version": "1",
+      "sortOrder": 10,
+      "questionId": 21
+    },
+    {
+      "tagEn": ["Open Feedback"],
+      "tagZh": ["開放回饋"],
+      "hintEn": "Optional — e.g. things to improve, memorable features, other thoughts",
+      "hintZh": "可空白 · 例如最該改進的地方、印象深刻的功能、其他想法",
+      "answers": [],
+      "labelEn": "Anything else you'd like to share with us?",
+      "labelZh": "還有想跟我們分享的嗎?",
+      "version": "1",
+      "sortOrder": 11,
+      "questionId": 22
+    }
+  ]
+}
