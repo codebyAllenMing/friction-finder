@@ -1,0 +1,12 @@
+# 縮小 build context + 確保 .env 不進 image
+target/
+.git
+.idea/
+*.iml
+.env
+.env.*
+!.env.example
+docker-compose.yml
+Dockerfile
+.dockerignore
+HELP.md
