@@ -1,5 +1,7 @@
 # Friction Finder
 
+**繁體中文** ・ [English](README.en.md)
+
 > 一份「STARLUX App 使用體驗」問卷的全端實作 — 從 UI/UX redesign 練習延伸成可實際收資料、可部署的線上問卷。
 > 前端 Vue 3 單頁問卷(動態分支),後端 Spring Boot SP-driven API,Postgres + Flyway,CI/CD 到雲端。
 
