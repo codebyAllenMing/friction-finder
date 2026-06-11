@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: survey-api
+
+  # 本機：optional 匯入 backend/.env（不進版控）；正式：env var / ACA secret 注入。
+  # 兩個來源都沒有時才用各欄位的預設（password 預設為空，不留任何密碼字面值）。
+  config:
+    import: optional:file:.env[.properties]
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/survey}
+    username: ${DB_USER:survey_app}
+    password: ${DB_PASSWORD:}
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+# Actuator：只開 health，給 UptimeRobot 監控用（/actuator/health）
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: never
+
+# 應用層設定
+app:
+  cors:
+    # 多個用逗號分隔；正式環境用 env APP_CORS_ALLOWED_ORIGINS 覆蓋
+    # dev 含 :8080 是為了讓 Swagger UI（同源）能 Try it out POST
+    allowed-origins: ${APP_CORS_ALLOWED_ORIGINS:http://localhost:5173,http://localhost:8080}
+  ratelimit:
+    capacity: 3              # 每 IP 桶容量（爆發允許量）
+    refill-per-minute: 3     # 每分鐘補充代幣數
+
+# Swagger / OpenAPI：dev 開、線上用 SWAGGER_ENABLED=false 關
+springdoc:
+  swagger-ui:
+    enabled: ${SWAGGER_ENABLED:true}
+  api-docs:
+    enabled: ${SWAGGER_ENABLED:true}

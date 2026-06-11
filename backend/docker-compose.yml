@@ -1,0 +1,21 @@
+# 本機開發用 Postgres（大版本對齊未來 Mac Mini 的 postgresql@16）
+# 用法：cd backend && docker compose up -d
+services:
+  postgres:
+    image: postgres:16
+    container_name: survey-postgres
+    env_file:
+      - .env                            # POSTGRES_DB / USER / PASSWORD（不進版控）
+    ports:
+      - "5432:5432"
+    volumes:
+      - survey_pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  survey_pgdata:
