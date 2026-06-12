@@ -36,5 +36,10 @@ function start() {
                 {{ t('intro.start') }} →
             </button>
         </div>
+
+        <div class="mt-12 space-y-1.5 border-t border-border pt-5">
+            <p class="text-xs text-muted">{{ t('intro.notice') }}</p>
+            <p class="text-xs leading-relaxed text-muted/70">{{ t('end.disclaimer') }}</p>
+        </div>
     </SurveyLayout>
 </template>

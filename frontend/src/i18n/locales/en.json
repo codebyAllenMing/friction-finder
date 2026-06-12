@@ -17,7 +17,8 @@
     "bulletAnon": "Anonymous — responses are used only for this study",
     "bulletHonest": "No right or wrong answers, just share how it really felt",
     "bulletNoSave": "Leaving midway won't save your data",
-    "start": "Start"
+    "start": "Start",
+    "notice": "This is an independent personal UI/UX research project and is not affiliated with STARLUX."
   },
   "progress": {
     "stepOf": "Question {current} of {total}"

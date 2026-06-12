@@ -17,7 +17,8 @@
     "bulletAnon": "問卷匿名,所有回應只用於本次研究",
     "bulletHonest": "沒有對錯答案,寫真實感覺就好",
     "bulletNoSave": "中途離開資料不會儲存",
-    "start": "開始填寫"
+    "start": "開始填寫",
+    "notice": "本問卷為個人 UI/UX 研究專案,與 STARLUX 星宇航空並無任何關聯。"
   },
   "progress": {
     "stepOf": "第 {current} / {total} 題"
